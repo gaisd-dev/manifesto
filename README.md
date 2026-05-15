@@ -4,7 +4,7 @@
 
 > **A manifesto for senior engineers, tech leads, and CTOs in the age of AI-assisted development.**
 >
-> AI can generate code. It cannot define a system. **GAISD** is a manifesto for the discipline that must survive the shift.
+> AI can generate code. It cannot own a system. **GAISD** is a manifesto for the discipline that must survive the shift.
 
 **Version:** 1.0 — April 2026
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -148,9 +148,9 @@ Code is no longer the source of truth. It is an artifact.
 
 > The system exists *before* the code exists.
 
-Architecture must be declared before anything is generated. Business rules must be defined before anything is implemented. Constraints must exist before any output is accepted.
+Architectural intent must be declared before generation is scaled. Business rules must be authored — not inferred — before they are encoded. Constraints must exist before any output is accepted as correct.
 
-AI can assist. AI can accelerate. But AI cannot define what the system is.
+AI can assist. AI can accelerate. AI can even propose definitions. But it cannot carry them — and a system without an owner is a system without intent.
 
 ---
 
@@ -164,11 +164,11 @@ Every system begins with explicit human intent. Nothing is generated without a d
 
 ### 2. Structural Primacy
 
-Architecture is defined before generation. AI operates within boundaries — never in place of them.
+Intent and key architectural decisions are explicit before generation is scaled. Generation operates within declared boundaries — never in place of them.
 
 ### 3. Business Rule Sovereignty
 
-Business logic belongs to people. AI may suggest, but never define.
+Business logic belongs to those accountable for the business. It must be authored, reviewed, and owned by humans — regardless of who or what proposed the first draft.
 
 ### 4. Traceability
 
@@ -180,15 +180,17 @@ There is no "the AI decided." Every decision has a human owner.
 
 ---
 
-## The Role of AI
+## Where Responsibility Lives
 
-Artificial intelligence is a powerful tool. But it is not an engineer.
+Artificial intelligence is a powerful tool, and its capabilities are evolving fast. Any line drawn today around what it "can" or "cannot" do will be redrawn tomorrow.
 
-It does not understand context. It does not carry responsibility. It does not own outcomes.
+The discipline does not depend on those limits. It depends on a more durable question: *who carries the decision?*
 
-It generates. And generation without definition is noise.
+Engineering is not the act of producing output. It is the act of taking responsibility for it. A system has an engineer when someone can explain why it is built this way, defend its trade-offs, and answer for its consequences.
 
-> AI must operate as an executor of defined intent — never as the source of it.
+Generation without that ownership is not engineering — it is noise, no matter how plausible the output looks.
+
+> The role of any powerful tool is to amplify intent that exists, not to substitute for intent that doesn't.
 
 ---
 
