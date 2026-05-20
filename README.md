@@ -168,7 +168,7 @@ Intent and key architectural decisions are explicit before generation is scaled.
 
 ### 3. Business Rule Sovereignty
 
-Business logic belongs to those accountable for the business. It must be authored, reviewed, and owned by humans — regardless of who or what proposed the first draft.
+Business rules must be authored and owned by humans regardless of the extent to which AI supports their formulation.
 
 ### 4. Traceability
 
@@ -176,7 +176,7 @@ Every artifact must be explainable. Every output must be linked to its origin: a
 
 ### 5. Human Accountability
 
-There is no "the AI decided." Every decision has a human owner.
+AI is a tool, not a scapegoat. The responsibility for every output rests with us.
 
 ---
 
